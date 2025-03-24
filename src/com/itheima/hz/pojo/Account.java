@@ -34,7 +34,7 @@ public class Account {
      * 集群 cluster
      * 负载均衡 load balance
      */
-    private String balance;
+    private double balance;
 
     /**
      * 限额 quota 此处使用limit
@@ -89,4 +89,5 @@ public class Account {
 
     public void setLimit(double limit) {
         this.limit = limit;
+    }
 }
